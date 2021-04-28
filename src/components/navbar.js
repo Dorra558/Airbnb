@@ -1,24 +1,25 @@
 import React from 'react'
-import {Navbar,Nav}from 'react-bootstrap'
+import {Navbar,Nav,FormControl, Container} from 'react-bootstrap'
+import '../App.css';
+
 
 function NavigationBar() {
   return(
     <div>
        <Navbar collapseOnSelect expand="lg" bg="light">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Container>
+          <Navbar.Brand href="#home"><img src="imgs/logoAirbnb.png" class="logoAir"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav className="mx-auto">
+                <FormControl type="text" placeholder="Commensez votre rechreche" className="mr-sm-2" />
                 </Nav>
-                <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                    Dank memes
-                </Nav.Link>
-                </Nav>
+                <Nav.Link href="#features">Devenez hôte</Nav.Link>
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-user-circle px-3"></i>
+              
             </Navbar.Collapse>
+          </Container>
        </Navbar>  
     </div>
    )
@@ -26,3 +27,6 @@ function NavigationBar() {
  }
 
 export default NavigationBar
+
+
+
