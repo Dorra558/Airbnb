@@ -9,6 +9,10 @@
   width: 70px;
   border-radius: 15px;
 }
+.villes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .servImg{
 width: 250px;
 border-radius: 15px;
@@ -33,4 +37,8 @@ border-radius: 15px;
 .photo{
   width: 380px;
   border-radius: 15px;
+}
+.exper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

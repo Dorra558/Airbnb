@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <NavigationBar />
       <span className="explore container ">Explorez les environs</span>
-      <Container className="d-flex flex-wrap">
+      <Container className="villes py-5">
          <Country city={cities}/>
       </Container>
       <span className="explore container ">Chez vous, partout</span>
@@ -70,13 +70,13 @@ function App() {
           <span className="explore container">Découvrez les expériences</span>
           <p class="parag">Des activités uniques avec des experts locaux, en personne ou en ligne.</p>
         </div>
-          <div className="d-flex">
-          <Experience experiences={experience}/>
+          <div className="exper">
+            <Experience experiences={experience}/>
           </div>
         </Container>
 
         <Container>
-          <Footer />
+          {/* <Footer /> */}
         </Container>
     </div>
   );

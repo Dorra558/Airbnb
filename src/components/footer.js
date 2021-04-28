@@ -19,7 +19,22 @@ function Footer(){
                     <p>Investisseurs</p>
                 </li>
                 <li>
-                    <p>Airbnb</p>
+                    <p>Airbnb Luxe</p>
+                </li>
+                <li>
+                    <p>HotelTonight</p>
+                </li>
+                <li>
+                    <p>Airbnb for Work</p>
+                </li>
+                <li>
+                    <p>C'est possible, grâce aux hôtes</p>
+                </li>
+                <li>
+                    <p>carrières</p>
+                </li>
+                <li>
+                    <p>Lettre des fondateurs</p>
                 </li>
             </ul>
             </Col>
